@@ -1,0 +1,20 @@
+.colortitulo{
+   color: blue;
+   font-family: cursive;
+   text-align: center;
+   
+}
+
+.centradodenavbar{
+  
+  color: blue;
+   background-color: red
+
+
+}
+.botones{
+margin-top: 100px;
+border-radius: 50px;
+background-color: green;
+color: aqua;
+}
