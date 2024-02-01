@@ -11,14 +11,7 @@ const CardWidget = () => {
     }
     return (
         
-//         <div>
-//             <button onClick={handlerIncremento} className='boton' > 
-// Carrito
-//             </button>
-// <p>{count}</p>
 
-
-//         </div>
 <div>
 <Container onClick={handlerIncremento}  >
 <Row>
