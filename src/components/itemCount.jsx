@@ -22,13 +22,13 @@ setCount (count - 1)
     funcionen asi como pasa con la funcion handlerincremento */
     return (
 <>
-<div>
+{/* <div>
    
     <button onClick={handlerIncremento}>+</button>
     <p>{count}</p>
     <button onClick={handlerdecrement}>-</button>
 <button onClick={handlerAddtocar} ></button>
-</div>
+</div> */}
 
 
 </>
