@@ -10,13 +10,11 @@ const CardWidget = () => {
         setCount (count + 1)
     }
     return (
-        
-
 <div>
 <Container onClick={handlerIncremento}  >
 <Row>
 <Col >
-<Image src="./public/asets/compras.png"
+<Image src="./public/data/img/compras.png"
   />
  <p>{count}</p>
 </Col>

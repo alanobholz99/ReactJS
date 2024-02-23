@@ -7,7 +7,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import ItemListcontainer from './itemListcontainer';
 import CardWidget from './cardWidget';
-
+import { Link } from 'react-router-dom';
+import Categoria from './categoria';
+import cart from './cart';
 
 
 const NavBar = () => {
@@ -27,18 +29,7 @@ const NavBar = () => {
             style={{ maxHeight: '300px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">home</Nav.Link>
-            <Nav.Link href="#action2">juegos</Nav.Link>
-            <NavDropdown title="Novedades" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">proximos lanzamientos</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Free to Play
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              
-                
-              
-            </NavDropdown>
+        <Categoria/>
             <Nav.Link href="#" disabled>
               
             </Nav.Link>
@@ -52,7 +43,7 @@ const NavBar = () => {
             />
             <Button variant="outline-success">Buscar</Button>
           </Form>
-          <CardWidget />
+         <cart/>
          
         </Navbar.Collapse>
         

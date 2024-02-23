@@ -1,20 +1,63 @@
 .colortitulo{
-   color: blue;
-   font-family: cursive;
-   text-align: center;
-   
+   color: black;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+   background: rgb(189, 204, 23);
+background: linear-gradient(0deg, rgb(184, 195, 34) 0%, rgba(253,187,45,1) 100%);
+
 }
 
 .centradodenavbar{
   
   color: blue;
-   background-color: red
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
 
 
 }
 .botones{
-margin-top: 100px;
-border-radius: 50px;
-background-color: green;
-color: aqua;
+
+background-color: azure;
+color: brown;
+}
+
+
+.separaciondecard{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+justify-content: space-between;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+
+
+}
+
+.colordeclick{
+  
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(29,28,24,1) 100%);
+
+}
+
+.colordeclick:hover{
+   background: rgb(189, 204, 23);
+   background: linear-gradient(0deg, rgb(184, 195, 34) 0%, rgba(253,187,45,1) 100%);
+
+}
+
+.ordendefooter{
+   list-style: none;
+   display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around; 
+ margin-top: 10px;
+ 
+}
+
+.itemdetailcarta{
+   display: flex;
+   flex-wrap: wrap;
 }

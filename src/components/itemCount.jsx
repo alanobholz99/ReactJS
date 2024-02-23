@@ -1,21 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
-
+import UseCounter from '../hooks/useCounter';
 
 const ItemCount = () => {
-    /* Count es el componente render y setcount seria el que produce su actualizacion osea su renderizado*/
-    const [count, setCount] = useState (1)
-    const handlerIncremento = () => {
-    setCount (count + 1)
-    }
-    const handlerdecrement = () => {
-        if (count > 1){
-setCount (count - 1)
-        }
-    }
-     const handlerAddtocar = () => {
-        console.log ("esta dentro de tu carro")
-     }
+// const [count, increment, decrement, reset] = UseCounter(1,10,1)
+//      const handlerAddtocar = () => {
+//         console.log ("esta dentro de tu carro")
+//      }
     
     
     /*el onclick sirve para que los botones tengan un sentido y 
@@ -24,9 +15,11 @@ setCount (count - 1)
 <>
 {/* <div>
    
-    <button onClick={handlerIncremento}>+</button>
+    <button onClick={
+        increment}>+</button>
     <p>{count}</p>
-    <button onClick={handlerdecrement}>-</button>
+    <button onClick={decrement}>-</button>
+    <button onClick={reset} >reset</button>
 <button onClick={handlerAddtocar} ></button>
 </div> */}
 
@@ -37,3 +30,5 @@ setCount (count - 1)
 }
 
 export default ItemCount;
+ /*el onclick sirve para que los botones tengan un sentido y 
+    funcionen asi como pasa con la funcion handlerincremento */
