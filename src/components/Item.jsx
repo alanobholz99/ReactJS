@@ -12,7 +12,7 @@ const Item = ({product}) => {
 }
     return (
         <  >
-           <Link to={"/product/${product.id}"} >
+           <Link to={`/product/${product.id}`} >
            < >
              
             <Card className='colordeclick' >

@@ -4,12 +4,11 @@ import NavBar from "./components/navBar"
 import Categoria from "./components/categoria";
 import cart from "./components/cart";
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
-import checkout from "./components/checkout"
 import ItemListcontainer from "./components/itemListcontainer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemFooter from "./components/itemFooter";
 import notFound from "./components/notFound";
-
+import Checkout from "./components/Checkout"
 
 
 export  const App = () => {
@@ -29,7 +28,7 @@ export  const App = () => {
 <Route   path="/categoria/:cid"   element={<ItemListcontainer/>}/>
 <Route path="/cart" element={<cart/>} />
 <Route  path="/product/:pid"  element ={<ItemDetailsContainer/>} />
-<Route  path="/checkout"  element ={<checkout/>} />
+<Route  path="/checkout"  element ={<Checkout/>} />
 <Route  path="*" element ={<notFound/>} />
 
 

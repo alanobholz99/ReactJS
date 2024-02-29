@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ItemList from './itemList';
+import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
 
 const ItemListcontainer = ({greeting}) => {
@@ -11,7 +11,9 @@ const ItemListcontainer = ({greeting}) => {
     .then (prods => {
       if (cid){
         const productosFiltrados = prods.filter(prod => prod.categoria == cid)
+   
         setProducts(productosFiltrados)
+       
       }else{
         setProducts(prods)
       }
