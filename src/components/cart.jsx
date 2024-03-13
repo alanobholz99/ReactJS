@@ -1,14 +1,62 @@
 import React from 'react';
-import CardWidget from './cardWidget';
+import CardWidget from './CardWidget';
+import { useCarritoContext } from '../context/CartContext.jsx';
+import { Link } from 'react-router-dom';
+import ItemList from './ItemList.jsx';
+import ItemCart from './ItemCart.jsx'
 
-
-
-const cart = () => {
-    return (
+const Cart = () => {
+   const {carrito, totalPrice, emptyCart} = useCarritoContext()
+  return (
         <>
-          <CardWidget/>
+        {
+carrito.length === 0 ?
+<>
+<h1>carrito vacio</h1>
+<Link  to={"/"}>
+<button   >
+
+volver al inicio
+
+</button>
+</Link> 
+
+</>
+:
+<>
+
+
+
+<ItemList products={carrito} plantilla = "ItemCart"/>
+
+<p>resumen de la compra: ${totalPrice()}</p>
+<button onClick={emptyCart} style={{ backgroundColor: "red", animation: "animate__pulse" }} >vaciar carrito </button>
+<Link to="/">
+<button  style={{ backgroundColor: "red", animation: "animate__pulse" }} >
+
+  Continuar comprando </button></Link>
+  <Link to="/checkout">
+<button  style={{ backgroundColor: "red", animation: "animate__pulse" }} > 
+Finalizar compra</button></Link>
+
+
+
+
+
+
+
+
+</>
+
+        }
+
+
+
+
+
+
         </>
     );
 }
 
-export default cart;
+export default Cart;

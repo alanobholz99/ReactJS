@@ -6,10 +6,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import ItemListcontainer from './itemListcontainer';
-import CardWidget from './cardWidget';
+import CardWidget from './CardWidget';
 import { Link } from 'react-router-dom';
 import Categoria from './categoria';
-import cart from './cart';
+import Cart from './Cart';
 
 
 const NavBar = () => {
@@ -43,7 +43,7 @@ const NavBar = () => {
             />
             <Button variant="outline-success">Buscar</Button>
           </Form>
-         <cart/>
+         <CardWidget/>
          
         </Navbar.Collapse>
         

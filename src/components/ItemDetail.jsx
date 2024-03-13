@@ -6,12 +6,15 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import 'animate.css';
 import ItemDetailsContainer from './ItemDetailsContainer';
-
+import { useCarritoContext } from '../context/CartContext';
+import { Link } from 'react-router-dom';
 export const ItemDetail = ({item}) => {
+const {addItem} = useCarritoContext()
+// funcion para agregar un nuevo producto al carrito
   const { count, increment, decrement, reset } = useCounter(1,item.stock, 1)
+ 
   const comprado = () => {
-    console.log(`estoy comprando ${count} de ${item.nombre}`)
-    console.log("agregado al carrito")
+  addItem (item, count)
   }
 
 
@@ -20,7 +23,7 @@ export const ItemDetail = ({item}) => {
 
 
 
-    <Card  >
+    <Card className='tamañodetail' >
       <Card.Body>
     
       <Card.Img variant="top" src={` ../public/data/img/${item.img}`} />
@@ -44,7 +47,11 @@ export const ItemDetail = ({item}) => {
           <Button onClick={reset} >reset</Button>
           <Button onClick={decrement}    >-</Button>
       
-
+          <Button style={{backgroundColor:"white"
+          }} >
+            
+            <Link to={`/`}>Inicio</Link>
+          </Button>
       </Card.Text>
       </Card.Body>
     </Card>

@@ -18,13 +18,13 @@ const ItemDetailsContainer = () => {
                 console.log(prods)
        })
            
-    },[] )
+    },[pid] )
 
     return (
 
 
 
-        <ItemDetail item={item} />
+        <ItemDetail  item={item} />
     )
 }
 

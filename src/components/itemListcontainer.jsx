@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ItemList from './ItemList';
 import { useParams } from 'react-router-dom';
 
-const ItemListcontainer = ({greeting}) => {
+const ItemListcontainer = () => {
   const [products, setProducts] = useState ([])
   const {cid} = useParams();
   useEffect(()  => {
@@ -26,7 +26,7 @@ const ItemListcontainer = ({greeting}) => {
   return (
       < >
        <div className='separaciondecard' >
-        <ItemList  products ={products} />
+        <ItemList  products ={products} plantilla="Item"/>
 
 
 

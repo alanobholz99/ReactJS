@@ -61,3 +61,10 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(29,28,24,1) 100%);
    display: flex;
    flex-wrap: wrap;
 }
+
+.tamañodetail{
+   display: flex;
+ flex-direction: column;
+   width: 40%;
+   margin-left: 30%;
+}

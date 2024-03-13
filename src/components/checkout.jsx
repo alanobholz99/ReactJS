@@ -12,7 +12,8 @@ e.preventDefault()
 // a objeto simple hago esto:
 const data = Object.fromEntries(datForm) //esto queda guardado en nuetrra base de datos
 console.log(data)
-e.target.reset() //resetea el form
+e.target.reset() //resetea el form// deja que handlesubmit haga 
+// lo que generalmente hace que es reset al form
 
 }
 return (

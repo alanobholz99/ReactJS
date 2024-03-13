@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import itemDetailsContainer from './ItemDetailsContainer';
-import CardWidget from './cardWidget';
+import CardWidget from './CardWidget';
 import { Link } from 'react-router-dom';
 
 
@@ -20,7 +20,7 @@ const Categoria = () => {
            <Nav.Link href="#action1">home</Nav.Link>
            
            </Link>
-           <Nav.Link href="#action2">juegos</Nav.Link>
+           <Nav.Link href="#action2">Proximamente</Nav.Link>
           <NavDropdown title="Novedades" id="navbarScrollingDropdown">
             <Link to={"/categoria/nuevos"} > 
             <NavDropdown.Item href="#action3">Nuevos</NavDropdown.Item>
