@@ -69,17 +69,29 @@ const emptyCart = () => {
     setCarrito([ ])
 }
 // cantidad de productos en el carrito:
+
+const updateItem = (id, newQuantity) => {
+    const indice = carrito.findIndex(prod => prod.id === id)
+    const aux = carrito
+    aux[indice].quantity = newQuantity
+    setCarrito([...aux])
+}
+
+
+
+
+
 const getItemQuantity = () => {
     return carrito.reduce((acum, prod) => acum += prod.quantity, 0)
     // este sirve para sumar la cantidad de productos
 }
 // obtener precio total
 const totalPrice = () => {
-    return carrito.reduce((acum, prod) => acum += (prod.quantity * prod.price, 0) )
+    return carrito.reduce((acum, prod) => acum += (prod.quantity * prod.precio), 0) 
 } //este lo que haxce es sacar el total multiplicando los productos por el precio
-console.log(carrito)
+
 return (  
-    <CarritoContext.Provider value = {{carrito, addItem, removeItem, emptyCart, getItemQuantity, totalPrice}}>
+    <CarritoContext.Provider value = {{carrito, addItem, removeItem,updateItem, emptyCart, getItemQuantity, totalPrice}}>
    {props.children}
    
     </CarritoContext.Provider>

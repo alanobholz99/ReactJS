@@ -1,99 +1,98 @@
 [
 {
-"id": 1,
+
 "nombre": "Final Fantasy VII remake" ,
 "precio": 1500,
 "stock":  3,
-"img":  "finalfantasy.jpg",
+"img":  "https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/finalfantasy.jpg?alt=media&token=e6476927-5aa6-47e7-9cf9-00caab503d6a",
 "categoria":  "nuevos"
 },
 {
-    "id": 2,
+   
     "nombre": "Grid Leyends" ,
     "precio": 100,
     "stock":  31,
-    "img":  "gridleyend.jpg",
+    "img":  "https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/gridleyend.jpg?alt=media&token=628a497d-488b-4c54-863b-e4a1cb7450f7",
+
     "categoria": "actuales"
 
 },
 {
-    "id": 3,
+   
     "nombre": "FIFA24" ,
     "precio": 10000,
     "stock":  17,
-    "img":  "fifga24.jpg",
-    "categoria": "nuevos"
+    "img":  "https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/fifga24.jpg?alt=media&token=91a4272e-070c-4ae7-be4d-9642fe935121",
+"categoria": "nuevos"
 },
 {
-    "id": 4,
+   
     "nombre": "Palword" ,
     "precio": 1500,
     "stock":  3,
-    "img":"palword.jpg",
-    "categoria": "nuevos"
+    "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/palword.jpg?alt=media&token=014c1ff2-fe8a-4436-bc58-8accf7319373",
+"categoria": "nuevos"
 },
 {
-    "id": 5,
+    
     "nombre": "Mortal Kombat 1" ,
     "precio": 1500,
     "stock":  6,
-    "img": "MK1.jpg",
-    "categoria": "nuevos"
+    "img": "https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/mk1.jpg?alt=media&token=01162f32-eddd-4470-b1dc-768581c3c6fe",
+"categoria": "nuevos"
 },
 {
-    "id": 6,
+  
     "nombre": "UFC4" ,
     "precio": 1500,
     "stock":  4,
-    "img":"ufc4.jpg",
-    "categoria": "actuales"
+    "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/ufc4.jpg?alt=media&token=22713ea1-c838-4643-92ae-9df2cca4684e",
+"categoria": "actuales"
 },
 {
-    "id": 7,
+
     "nombre": "The Division 2" ,
     "precio": 1500,
     "stock":  7,
-    "img":"theddv2.jpg",
-    "categoria": "actuales"
+    "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/theddv2.jpg?alt=media&token=24615c22-c7e5-467d-9993-340a4ea41eb6",
+"categoria": "actuales"
 },
 {
-    "id": 8,
+   
     "nombre": "Black Ops 3" ,
     "precio": 1500,
     "stock":  3,
-    "img":"blck3.jpg",
-    "categoria": "actuales"
+    "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/blck3.jpg?alt=media&token=7cb31871-b3fa-4e4f-a52c-51dbcef52930",
+"categoria": "actuales"
 },
 {
-    "id": 9,
+  
     "nombre": "Remmant 2" ,
     "precio": 1500,
     "stock":  2,
-    "img":"remmant2.jpg",
-    "categoria": "nuevos"
+    "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/remmant2.jpg?alt=media&token=e100c053-ce66-4b27-b484-6c316432a43e",
+"categoria": "nuevos"
 },
 {
-    "id": 10,
     "nombre": "Ned for Speed Unbound " ,
     "precio": 1500,
     "stock":  3,
-    "img":"nfsun.jpg",
+    "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/nfsun.jpg?alt=media&token=e5cf34b5-d0f2-4e36-9ae9-65674e5932b9",
     "categoria": "actuales"
 },
 {
-    "id": 11,
-    "nombre": " God of War Ragnarok" ,
+ "nombre": " God of War Ragnarok" ,
     "precio": 1500,
     "stock":  9,
-    "img":"gdwr.jpg",
+    "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/gdwr.jpg?alt=media&token=2058e11b-a8b3-4f33-b209-a2044496e2a4",
     "categoria": "nuevos"
 },
 {
-    "id": 12,
+    
     "nombre": "Sims 4" ,
     "precio": 1500,
     "stock":  6,
-    "img":"sims4.jpg",
+    "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/sims4.jpg?alt=media&token=a508c01d-e9c5-4ac8-b5aa-736c63c782b8",
     "categoria": "actuales"
 }
 

@@ -8,6 +8,7 @@ import 'animate.css';
 import ItemDetailsContainer from './ItemDetailsContainer';
 import { useCarritoContext } from '../context/CartContext';
 import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify'; 
 export const ItemDetail = ({item}) => {
 const {addItem} = useCarritoContext()
 // funcion para agregar un nuevo producto al carrito
@@ -15,7 +16,17 @@ const {addItem} = useCarritoContext()
  
   const comprado = () => {
   addItem (item, count)
-  }
+  toast.success(`Producto agregado al carrito correctamente`, {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark"
+})
+}
 
 
   return (
@@ -26,7 +37,7 @@ const {addItem} = useCarritoContext()
     <Card className='tamañodetail' >
       <Card.Body>
     
-      <Card.Img variant="top" src={` ../public/data/img/${item.img}`} />
+      <Card.Img variant="top" src={item.img} />
       
       <Card.Text >
 

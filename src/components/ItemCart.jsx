@@ -1,40 +1,38 @@
 import React from 'react'
-import ItemList from './ItemList'
-import Item from './Item'
-import ItemDetailsContainer from './ItemDetailsContainer'
 import { useCarritoContext } from '../context/CartContext'
 import useCounter from '../hooks/useCounter'
 
 
 const ItemCart = ({ product }) => {
-  console.log(product)
+
   const { removeItem, updateItem } = useCarritoContext()
   const { count, increment, decrement } = useCounter(product.quantity, product.stock, 1)
-
+  console.log(product)
 
   return (
 
     <div style={{ backgroundColor: "red", display: "flex" }}>
       <div>
         <p>{product.id}</p>
-        <img src={`../public/data/img/${products.img}`} alt={`imagen de ${product.nombre}`} />
-        <p >${product.price}</p>
+        <p>{product.nombre}</p>
+        <img src={product.img} alt={`imagen de ${product.nombre}`} />
+        <p >${product.precio}</p>
       </div>
-      <span>{product.quantity}</span>
+     
       <button onClick={() => {
         updateItem(product.id, count + 1)
-        increment()
-      }} style={{ backgroundColor: "red", animation: "animate__pulse" }} >+ </button>
+        increment();
+      }} >+ </button>
 
-      <span style={{ backgroundColor: "aqua", color: "black" }}  > {count} </span>
+      <span  > {count} </span>
       <button onClick={async () => {
         updateItem(product.id, count - 1)
-        decrement()
+        decrement();
       }}    >-</button>
 
 
       <div>
-        <p>subtotal: ${product.price * count}</p>
+        <p>subtotal: ${product.precio * count}</p>
 
       </div>
 

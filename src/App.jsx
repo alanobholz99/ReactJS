@@ -10,6 +10,8 @@ import ItemFooter from "./components/itemFooter";
 import NotFound from "./components/notFound.jsx";
 import Checkout from "./components/checkout.jsx";
 import { CarritoProvider } from "./context/CartContext.jsx";
+import { ToastContainer } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
 //este provedor va a encerrar toda la app
   
 export  const App = () => {
@@ -24,6 +26,7 @@ export  const App = () => {
 <CarritoProvider> 
 
 <NavBar/>
+<ToastContainer/>
 <Routes>
 
 <Route  path="/" element={  <ItemListcontainer />}  />
