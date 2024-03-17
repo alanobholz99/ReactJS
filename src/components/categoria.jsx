@@ -1,12 +1,9 @@
 import React from 'react';
-import Button from 'react-bootstrap/esm/Button';
-import Container from 'react-bootstrap/esm/Container';
-import Form from 'react-bootstrap/Form';
+
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import itemDetailsContainer from './ItemDetailsContainer';
-import CardWidget from './CardWidget';
+
 import { Link } from 'react-router-dom';
 
 

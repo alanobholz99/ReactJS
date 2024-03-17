@@ -1,6 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
-import UseCounter from '../hooks/useCounter';
+
 
 const ItemCount = () => {
 // const [count, increment, decrement, reset] = UseCounter(1,10,1)

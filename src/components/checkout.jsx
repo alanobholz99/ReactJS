@@ -87,7 +87,7 @@ return (
         {
             carrito.length === 0 ?
             <>
-            <h2>para finalizar compra debe tener productos en el carrito</h2>
+            <h2>Para finalizar compra debe tener productos en el carrito</h2>
             <Link to={"/"}>
                             <button >
                                 Volver al inicio

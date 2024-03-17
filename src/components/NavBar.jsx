@@ -4,12 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import ItemListcontainer from './itemListcontainer';
 import CardWidget from './CardWidget';
-import { Link } from 'react-router-dom';
 import Categoria from './categoria';
-import Cart from './Cart';
+
 
 
 const NavBar = () => {
