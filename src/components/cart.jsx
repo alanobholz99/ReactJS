@@ -12,7 +12,7 @@ const Cart = () => {
       {
         carrito.length === 0 ?
           <>
-            <h1>carrito vacio</h1>
+            <h1  >carrito vacio</h1>
             <Link to={"/"}>
               <button   >
 
