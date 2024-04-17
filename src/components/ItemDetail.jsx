@@ -4,11 +4,12 @@ import useCounter from '../hooks/useCounter.jsx';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import 'animate.css';
-import ItemDetailsContainer from './ItemDetailsContainer';
+
 import { useCarritoContext } from '../context/CartContext.jsx';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify'; 
-export const ItemDetail = ({item}) => {
+
+const ItemDetail = ({item}) => {
 const {addItem} = useCarritoContext()
 // funcion para agregar un nuevo producto al carrito
   const { count, increment, decrement, reset } = useCounter(1,item.stock, 1)
