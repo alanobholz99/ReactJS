@@ -4,9 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import CardWidget from   "../components/CardWidget.jsx";
-import Categoria from './categoria.jsx';
 
+import Categoria from './categoria.jsx';
+import CardWidget from "./CardWidget.jsx";
 
 
 const NavBar = () => {
