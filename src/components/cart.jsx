@@ -2,8 +2,8 @@ import React from 'react';
 
 import { useCarritoContext } from '../context/CartContext.jsx';
 import { Link } from 'react-router-dom';
-import ItemList from './itemList.jsx';
-import ItemCart from './ItemCart.jsx'
+import ItemList from './ItemList.jsx';
+
 
 const Cart = () => {
   const { carrito, totalPrice, emptyCart } = useCarritoContext()
