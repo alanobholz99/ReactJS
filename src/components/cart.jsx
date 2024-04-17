@@ -1,5 +1,5 @@
 import React from 'react';
-import CardWidget from './CardWidget';
+
 import { useCarritoContext } from '../context/CartContext.jsx';
 import { Link } from 'react-router-dom';
 import ItemList from './itemList.jsx';
