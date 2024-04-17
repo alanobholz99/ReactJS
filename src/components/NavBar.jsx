@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import CardWidget from  "./CardWidget.js";
+import CardWidget from  './CardWidget.jsx';
 import Categoria from './categoria.jsx';
 
 
@@ -40,10 +40,10 @@ const NavBar = () => {
             />
             <Button variant="outline-success">Buscar</Button>
           </Form>
-         <CardWidget/>
+        
          
         </Navbar.Collapse>
-        
+        <CardWidget/>
       </Container>
      
     </Navbar>
