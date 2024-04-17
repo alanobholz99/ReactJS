@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
 import 'animate.css';
-import useCounter from '../hooks/useCounter';
+
 import { Link } from 'react-router-dom';
 
 const Item = ({ product }) => {

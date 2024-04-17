@@ -173,7 +173,6 @@ export const deleteProduct = async (id) => {
 
 export const getProducts = async () => {
 const productos = await getDocs(collection(bdd, "productos"))
-console.log(productos.docs)
 const items = productos.docs.map(prod => { return {
     ...prod.data(), id : prod.id}})
 

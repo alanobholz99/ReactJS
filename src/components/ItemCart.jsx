@@ -1,6 +1,6 @@
 import React from 'react'
-import { useCarritoContext } from '../context/CartContext'
-import useCounter from '../hooks/useCounter'
+import { useCarritoContext } from '../context/CartContext.jsx'
+import useCounter from '../hooks/useCounter.jsx'
 
 
 const ItemCart = ({ product }) => {
