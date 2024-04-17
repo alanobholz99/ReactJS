@@ -5,7 +5,7 @@ import Cart from "./components/cart.jsx";
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
 import ItemListcontainer from "./components/itemListcontainer";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ItemFooter from "./components/itemFooter";
+import ItemFooter from "./components/ItemFooter.jsx";
 import NotFound from "./components/notFound.jsx";
 import Checkout from "./components/checkout.jsx";
 import { CarritoProvider } from "./context/CartContext.jsx";
