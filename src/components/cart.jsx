@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import ItemList from './ItemList.jsx';
 
 
-const Cart = () => {
+export const Cart = () => {
   const { carrito, totalPrice, emptyCart } = useCarritoContext()
   return (
     <>

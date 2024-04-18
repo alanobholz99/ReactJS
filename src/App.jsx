@@ -1,13 +1,13 @@
 import "./styles/App.css"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import NavBar from "./components/NavBar.jsx";
-import Cart from "./components/cart.jsx";
+import Cart from "./components/Cart.jsx";
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
-import ItemListcontainer from "./components/itemListcontainer";
+import ItemListcontainer from "./components/ItemListcontainer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemFooter from "./components/ItemFooter.jsx";
-import NotFound from "./components/notFound.jsx";
-import Checkout from "./components/checkout.jsx";
+import NotFound from "./components/NotFound.jsx";
+import Checkout from "./components/Checkout.jsx";
 import { CarritoProvider } from "./context/CartContext.jsx";
 import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';

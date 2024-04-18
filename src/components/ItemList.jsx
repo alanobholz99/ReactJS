@@ -1,5 +1,5 @@
 import React from 'react';
-import Item from './item.jsx';
+import Item from './Item.jsx';
 import ItemCart from './ItemCart.jsx';
 
 const ItemList = ({ products, plantilla }) => {
