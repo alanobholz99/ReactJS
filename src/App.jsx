@@ -30,7 +30,7 @@ export  const App = () => {
 
 <Route  path="/" element={  <ItemListcontainer />}  />
 <Route   path="/categoria/:cid"   element={<ItemListcontainer/>}/>
-<Route path="/cart" element={<Cart/>} />
+<Route path="/Cart" element={<Cart/>} />
 <Route  path="/product/:pid"  element ={<ItemDetailsContainer/>} />
 <Route  path="/checkout"  element ={<Checkout/>} />
 <Route  path="*" element ={<NotFound/>} />
