@@ -1,4 +1,4 @@
-import Cart from "./components/Cart.jsx";
+import Cart from "./components/Cart.jsx"
 import NavBar from  "./components/NavBar.jsx";
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
 import ItemListContainer from "./components/ItemListContainer.jsx";
@@ -21,7 +21,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 //este provedor va a encerrar toda la app
   
-export  const App = () => {
+const App = () => {
   return (
    /* lo que hice fue que 
    use el props de test en app*/ 
