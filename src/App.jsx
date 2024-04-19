@@ -1,7 +1,7 @@
 import "./styles/App.css"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import NavBar from "./components/NavBar.jsx";
-import Cart from "./components/Cart.jsx";
+
+
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
 import ItemListcontainer from "./components/ItemListcontainer";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,6 +11,8 @@ import Checkout from "./components/Checkout.jsx";
 import { CarritoProvider } from "./context/CartContext.jsx";
 import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
+import Cart from "./components/Cart.jsx";
+import NavBar from  "./components/NavBar.jsx";
 //este provedor va a encerrar toda la app
   
 export  const App = () => {
@@ -29,10 +31,10 @@ export  const App = () => {
 <Routes>
 
 <Route  path="/" element={  <ItemListcontainer />}  />
-<Route   path="/categoria/:cid"   element={<ItemListcontainer/>}/>
+<Route   path="/Categoria/:cid"   element={<ItemListcontainer/>}/>
 <Route path="/Cart" element={<Cart/>} />
 <Route  path="/product/:pid"  element ={<ItemDetailsContainer/>} />
-<Route  path="/checkout"  element ={<Checkout/>} />
+<Route  path="/Checkout"  element ={<Checkout/>} />
 <Route  path="*" element ={<NotFound/>} />
 
 
