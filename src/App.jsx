@@ -4,9 +4,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ItemFooter from "./components/ItemFooter.jsx";
-import NotFound from "./components/NotFound.jsx";
-import Checkout from "./components/Checkout.jsx";
+
 import { CarritoProvider } from "./context/CartContext.jsx";
 import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
@@ -14,6 +12,9 @@ import Cart from "./components/Cart.jsx";
 import NavBar from  "./components/NavBar.jsx";
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
 import ItemListContainer from "./components/ItemListContainer.jsx";
+import ItemFooter from "./components/ItemFooter.jsx";
+import NotFound from "./components/NotFound.jsx";
+import Checkout from "./components/Checkout.jsx";
 //este provedor va a encerrar toda la app
   
 export  const App = () => {
