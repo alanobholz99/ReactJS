@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
-import ItemListcontainer from "./components/ItemListcontainer";
+import ItemListContainer from "./components/ItemListContainer.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemFooter from "./components/ItemFooter.jsx";
 import NotFound from "./components/NotFound.jsx";
@@ -30,8 +30,8 @@ export  const App = () => {
 <ToastContainer/>
 <Routes>
 
-<Route  path="/" element={  <ItemListcontainer />}  />
-<Route   path="/Categoria/:cid"   element={<ItemListcontainer/>}/>
+<Route  path="/" element={  <ItemListContainer />}  />
+<Route   path="/Categoria/:cid"   element={<ItemListContainer/>}/>
 <Route path="/Cart" element={<Cart/>} />
 <Route  path="/product/:pid"  element ={<ItemDetailsContainer/>} />
 <Route  path="/Checkout"  element ={<Checkout/>} />

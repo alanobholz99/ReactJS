@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import ItemList from './ItemList.jsx';
 import { useParams } from 'react-router-dom';
-import { getProducts } from '../firebase/firebase';
-const ItemListcontainer = () => {
+import { getProducts } from '../firebase/firebase.js';
+export const ItemListContainer = () => {
   const [products, setProducts] = useState ([])
   const {cid} = useParams();
   useEffect(()  => {
@@ -37,4 +37,4 @@ const ItemListcontainer = () => {
     );
 }
 
-export default ItemListcontainer;
+export default ItemListContainer;
