@@ -5,20 +5,12 @@ import ItemListContainer from "./components/ItemListContainer.jsx";
 import ItemFooter from "./components/ItemFooter.jsx";
 import NotFound from "./components/NotFound.jsx";
 import Checkout from "./components/Checkout.jsx";
-
-
-
-
-
-
 import "./styles/App.css"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { CarritoProvider } from "./context/CartContext.jsx";
 import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
-
-
 //este provedor va a encerrar toda la app
   
 const App = () => {
@@ -29,9 +21,7 @@ const App = () => {
    <div className="colortitulo">
  <h1 className="colortitulo " >tienda vicio</h1>
  <BrowserRouter>
-
 <CarritoProvider> 
-
 <NavBar/>
 <ToastContainer/>
 <Routes>
