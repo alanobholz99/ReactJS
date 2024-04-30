@@ -3,7 +3,7 @@ import NavBar from "./components/NavBarr.jsx";
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
 import ItemListContainer from "./components/ItemListContainer.jsx"
 import ItemFooter from "./components/ItemFooter.jsx";
-import NotFound from "./components/NotFound.jsx";
+import NotFound from "./components/NotFoundd.jsx";
 import Checkout from "./components/Checkout.jsx";
 import "./styles/App.css"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
