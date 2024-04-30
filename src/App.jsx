@@ -1,4 +1,4 @@
-import Cart from "./components/Cart.jsx";
+import Cart from "./components/Cartt.jsx";
 import NavBar from "./components/NavBarr.jsx";
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
 import ItemListContainer from "./components/ItemListContainer.jsx"
