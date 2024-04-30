@@ -1,5 +1,5 @@
 import Cart from "./components/Cartt.jsx";
-import NavBar from "./components/NavBarr.jsx";
+import NavBar from "./components/NavBar.jsx";
 import ItemDetailsContainer from "./components/ItemDetailsContainer";
 import ItemListContainer from "./components/ItemListContainer.jsx"
 import ItemFooter from "./components/ItemFooter.jsx";
