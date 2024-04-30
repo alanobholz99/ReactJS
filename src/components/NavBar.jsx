@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Categoria from './categoria.jsx';
+import Categoria from "./Categoria";
 import CardWidget from "./CardWidget.jsx";
 
 
