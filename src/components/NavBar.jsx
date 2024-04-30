@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Categoria from "./Categoria";
-import CardWidget from "./CardWidget";
+import CardWidget from './CardWidget';
 
 
 const NavBar = () => {

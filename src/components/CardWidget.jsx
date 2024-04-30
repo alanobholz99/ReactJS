@@ -5,7 +5,7 @@ import Badge from 'react-bootstrap/Badge';
 
 import { Link } from 'react-router-dom';
 
-const CardWidget = () => {
+export const CardWidget = () => {
     const {getItemQuantity} = useCarritoContext()
     
     // const [count, setCount] = useState(0)
