@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import ItemList from './ItemList.jsx';
 import { useParams } from 'react-router-dom';
 import { getProducts } from '../firebase/firebase.js';
-export const ItemListContainer = () => {
+export const ItemListContainerr = () => {
   const [products, setProducts] = useState ([])
   const {cid} = useParams();
   useEffect(()  => {
@@ -37,4 +37,4 @@ export const ItemListContainer = () => {
     );
 }
 
-export default ItemListContainer;
+export default ItemListContainerr;
