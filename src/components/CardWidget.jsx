@@ -18,9 +18,9 @@ export const CardWidget = () => {
 
 
 <Link  to={"/Cart"}>
-<button variant="primary">
+<button style={{background:"#6938e5", borderRadius:"50px"}}>
 
-      Carrito <Badge bg="secondary"></Badge>
+      Carrito <Badge style={{background:"#6938e5", }}></Badge>
       <span className="visually-hidden">{getItemQuantity()}</span>
    
     </button>

@@ -20,7 +20,7 @@ const App = () => {
    use el props de test en app*/ 
 
    <div className="colortitulo">
- <h1 className="colortitulo " >tienda vicio</h1>
+ <h1  style={{color:"white",  }} className="titulo" >~ ó_ò ~ Tienda Vicio ~ ó_ò ~</h1>
  <BrowserRouter>
 <CarritoProvider> 
 <NavBar/>

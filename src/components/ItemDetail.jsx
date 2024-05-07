@@ -58,7 +58,7 @@ const {addItem} = useCarritoContext()
           <Button onClick={reset} >reset</Button>
           <Button onClick={decrement}    >-</Button>
       
-          <Button style={{backgroundColor:"white"
+          <Button style={{backgroundColor:"aqua"
           }} >
             
             <Link to={`/`}>Inicio</Link>

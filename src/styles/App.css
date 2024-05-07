@@ -1,24 +1,16 @@
 .colortitulo{
-   color: black;
+   color:#6938e5;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;
-   background: rgb(189, 204, 23);
-background: linear-gradient(0deg, rgb(184, 195, 34) 0%, rgba(253,187,45,1) 100%);
+
+background: linear-gradient(#6938e5, rgb(12, 9, 1) 100%);
 
 }
 
-.centradodenavbar{
-  
-  color: blue;
-  background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 
-
-
-}
 .botones{
 
-background-color: azure;
+background-color: rgb(5, 75, 75);
 color: brown;
 }
 
@@ -28,8 +20,8 @@ color: brown;
    flex-wrap: wrap;
    gap: 50px;
 justify-content: space-between;
-background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+background:#1180ef;
+background: linear-gradient(0deg, rgb(77, 4, 178) 0%, rgb(14, 10, 1) 100%);
 
 
 
@@ -37,14 +29,14 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
 
 .colordeclick{
   
-background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(29,28,24,1) 100%);
+background: #132f4b;
 
 }
 
 .colordeclick:hover{
    background: rgb(189, 204, 23);
-   background: linear-gradient(0deg, rgb(184, 195, 34) 0%, rgba(253,187,45,1) 100%);
+   background:#6938e5
+   ;
 
 }
 
@@ -68,3 +60,42 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(29,28,24,1) 100%);
    width: 40%;
    margin-left: 30%;
 }
+.titulo{
+   font-family: "Jersey 10", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+
+ .separaciondeitemcard{
+   color: black;
+  
+  
+   
+ }
+ .separaciondeitemcard2{
+margin-top: 200px;
+margin-right: 100px;
+
+
+
+ }
+ .itemcard3{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+ }
+ .hola{
+animation: mover-izquierda-derecha 2s 1; 
+animation-fill-mode: forwards; 
+}
+ @keyframes mover-izquierda-derecha {
+   from{
+      transform:translate(-100px)
+      
+ }
+ to{
+   transform: translate(20px);
+ }
+
+ }

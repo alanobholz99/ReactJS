@@ -9,28 +9,31 @@ import { Link } from 'react-router-dom';
 const Categoria = () => {
     return (
         <>
-     
-     <Link to={"/"} >
-           <Nav.Link href="#action1">home</Nav.Link>
+
+     <Link style={{ textDecoration: "none" }} to={"/"}  >
+           <Nav.Link  href="#action1"  >Inicio</Nav.Link>
            
            </Link>
-           <Nav.Link href="#action2">Proximamente</Nav.Link>
-          <NavDropdown title="Novedades" id="navbarScrollingDropdown">
-            <Link to={"/categoria/nuevos"} > 
-            <NavDropdown.Item href="#action3">Nuevos</NavDropdown.Item>
+           <Nav.Link  href="#action2" >Próximo</Nav.Link>
+          <NavDropdown  title="Novedades" id="navbarScrollingDropdown">
+          <div >
+            <Link className='colortitulo'style={{ textDecoration: "none" }}  to={"/categoria/nuevos"} > 
+            <NavDropdown.Item >Nuevos</NavDropdown.Item>
            </Link>
             
-            <Link  to={"/categoria/actuales"} >    
-            <NavDropdown.Item href="#action4">
+            <Link className='colortitulo' style={{ textDecoration: "none" }} to={"/categoria/actuales"} >    
+            <NavDropdown.Item  href="#action4">
               Atuales
             </NavDropdown.Item>
-            
+       
             </Link>
-            <NavDropdown.Divider />
+            </div>
             
               
             
           </NavDropdown>
+  
+     
         
         
         </>

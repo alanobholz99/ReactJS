@@ -11,7 +11,7 @@ const Item = ({ product }) => {
 
     return (
         <  >
-            <Link to={`/product/${product.id}`} >
+            <Link style={{ textDecoration: "none" }}  to={`/product/${product.id}`} >
 
 
                 <Card className='colordeclick' >
