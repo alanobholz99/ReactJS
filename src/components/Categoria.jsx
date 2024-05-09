@@ -18,7 +18,7 @@ const Categoria = () => {
           <NavDropdown  title="Novedades" id="navbarScrollingDropdown">
           <div >
             <Link className='colortitulo'style={{ textDecoration: "none" }}  to={"/categoria/nuevos"} > 
-            <NavDropdown.Item >Nuevos</NavDropdown.Item>
+            <NavDropdown.Item >nuevos</NavDropdown.Item>
            </Link>
             
             <Link className='colortitulo' style={{ textDecoration: "none" }} to={"/categoria/actuales"} >    

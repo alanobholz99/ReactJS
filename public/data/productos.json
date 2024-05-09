@@ -14,7 +14,7 @@
     "stock":  31,
     "img":  "https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/gridleyend.jpg?alt=media&token=628a497d-488b-4c54-863b-e4a1cb7450f7",
 
-    "categoria": "actuales"
+    "categoria": "antiguos"
 
 },
 {
@@ -47,7 +47,7 @@
     "precio": 1500,
     "stock":  4,
     "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/ufc4.jpg?alt=media&token=22713ea1-c838-4643-92ae-9df2cca4684e",
-"categoria": "actuales"
+"categoria": "antiguos"
 },
 {
 
@@ -55,7 +55,7 @@
     "precio": 1500,
     "stock":  7,
     "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/theddv2.jpg?alt=media&token=24615c22-c7e5-467d-9993-340a4ea41eb6",
-"categoria": "actuales"
+"categoria": "antiguos"
 },
 {
    
@@ -78,7 +78,7 @@
     "precio": 1500,
     "stock":  3,
     "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/nfsun.jpg?alt=media&token=e5cf34b5-d0f2-4e36-9ae9-65674e5932b9",
-    "categoria": "actuales"
+    "categoria": "antiguos"
 },
 {
  "nombre": " God of War Ragnarok" ,
@@ -93,7 +93,7 @@
     "precio": 1500,
     "stock":  6,
     "img":"https://firebasestorage.googleapis.com/v0/b/rect-3e557.appspot.com/o/sims4.jpg?alt=media&token=a508c01d-e9c5-4ac8-b5aa-736c63c782b8",
-    "categoria": "actuales"
+    "categoria": "antiguos"
 }
 
 
