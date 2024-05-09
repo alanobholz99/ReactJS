@@ -61,7 +61,7 @@ const {addItem} = useCarritoContext()
           <Button style={{backgroundColor:"aqua"
           }} >
             
-            <Link to={`/`}>Inicio</Link>
+            <Link style={{textDecoration:"none"}} to={`/`}>Inicio</Link>
           </Button>
       </Card.Text>
       </Card.Body>

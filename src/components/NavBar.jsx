@@ -37,7 +37,7 @@ const NavBar = () => {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Buscar</Button>
+            <Button style={{background:"black"}} >Buscar</Button>
           </Form>
         
          

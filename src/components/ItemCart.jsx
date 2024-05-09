@@ -18,7 +18,7 @@ const ItemCart = ({ product }) => {
       <div className='separaciondeitemcard' >
         <p>{product.id}</p>
         <p>{product.nombre}</p>
-        <img src={product.img} alt={`imagen de ${product.nombre}`} />
+        <img src={product.img} style={{border:"solid", borderRadius:"20px", borderColor:"purple"}} alt={`imagen de ${product.nombre}`} />
         <p >${product.precio}</p>
       </div>
      <div className='separaciondeitemcard2'  > 

@@ -45,7 +45,8 @@ export const Cart = () => {
             <div  >
               {<ItemList  products={carrito} plantilla ="ItemCart" />}
             </div>
-            <p>resumen de la compra: ${totalPrice()}</p>
+            <div className='container' >
+            <p className='textoflotante' >resumen de la compra: ${totalPrice()}</p>
             <button onClick={emptyCart} style={{ backgroundColor: "#6938e5",  }} >vaciar carrito </button>
             <Link to="/">
               <button style={{ backgroundColor: "#6938e5", animation: "animate__pulse" }} >
@@ -55,6 +56,10 @@ export const Cart = () => {
             <Link to="/checkout">
               <button style={{ backgroundColor: "#6938e5", animation: "animate__pulse" }} >
                 Finalizar compra</button></Link>
+            </div>
+           
+            
+          
           </>
       }
     </>

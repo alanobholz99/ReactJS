@@ -23,7 +23,7 @@ const Categoria = () => {
             
             <Link className='colortitulo' style={{ textDecoration: "none" }} to={"/categoria/actuales"} >    
             <NavDropdown.Item  href="#action4">
-              Atuales
+              Antiguos
             </NavDropdown.Item>
        
             </Link>

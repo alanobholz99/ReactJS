@@ -4,6 +4,7 @@ import {useCarritoContext} from "../context/CartContext.jsx";
 import {Link, useNavigate} from "react-router-dom";
 import { createOrdenCompra, getOrdenCompra, getProduct, updateProduct} from "../firebase/firebase.js";
 import { toast } from 'react-toastify'; 
+import {Player} from "@lottiefiles/react-lottie-player";
 const Checkout = () => {
     const formRef = useRef() //genero una refenrencia
 const navigate = useNavigate() //devuleve la locacion actual de mi componente(ruta)
@@ -62,7 +63,8 @@ toast.success(`🛒 Muchas gracias por comprar con nosotros, su ID de compra es:
     progress: undefined,
     theme: "dark"
 
-})
+});
+
 emptyCart()
 
 e.target.reset() //resetea el form// deja que handlesubmit haga 
@@ -79,9 +81,10 @@ navigate("/")
         draggable: true,
         progress: undefined,
         theme: "dark"
-    })
 })
+});
 }
+
 return (
         <>
         {
@@ -97,22 +100,31 @@ return (
     :    
    
         <div  >
-            <form action=""  ref={formRef} onSubmit={handleSubmit} >
-<label >nombre: </label>
-<input type="text"  name="nombre"/>
-<label >apellido: </label>
+            <form className='ordencheck'  action=""  ref={formRef} onSubmit={handleSubmit} >
+<label >Nombre: </label>
+<input  type="text"  name="nombre"/>
+<label >Apellido: </label>
 <input type="text" name="apellido"/>
-<label >direccion: </label>
+<label >Direccion: </label>
 <input type="text" name="direccion"/>
 <label > DNI:</label>
 <input type="number" name="DNI"/>        
-<label > email:</label>
+<label > Email:</label>
 <input type="email" name="email"/>           
 <label >Telefono: </label>
 <input type="number" name="telefono"/>           
-<button>finalizar compra</button>
+<button>Finalizar compra</button>
 </form>
+<Player
+            
+            src='https://lottie.host/b37c55b2-28ec-4e01-b554-256927c311e2/BmbvCSZzlC.json'
+            className="player"
+            loop
+  autoplay
+  style={{height:"200px", width:"400px"}}
+            />
 </div>
+
         
     }
         </>
