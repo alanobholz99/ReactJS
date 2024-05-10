@@ -56,17 +56,19 @@ const {addItem} = useCarritoContext()
           <Button onClick={increment} style={{ backgroundColor: "red", animation: "animate__pulse" }} >+ </Button>
           <Button onClick={comprado} style={{ backgroundColor: "aqua", color: "black" }}  >comprar {count} </Button>
           <Button onClick={reset} >reset</Button>
-          <Button onClick={decrement}    >-</Button>
+          <Button onClick={decrement}>-</Button>
       
           <Button style={{backgroundColor:"aqua"
           }} >
             
             <Link style={{textDecoration:"none"}} to={`/`}>Inicio</Link>
+            
           </Button>
       </Card.Text>
+      
       </Card.Body>
     </Card>
-   
+  
 
   )
 }

@@ -26,6 +26,15 @@ background: linear-gradient(0deg, rgb(77, 4, 178) 0%, rgb(14, 10, 1) 100%);
 
 
 }
+@media (max-width:576px){
+  .separaciondecard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+    
+  }
+}
 
 .colordeclick{
   
@@ -59,6 +68,13 @@ background: #132f4b;
  flex-direction: column;
    width: 40%;
    margin-left: 30%;
+}
+@media(max-width:576px){
+  .tamañodetail{
+display: flex;
+width: 200px;
+margin-left: 20px;
+  }
 }
 .titulo{
    font-family: "Jersey 10", sans-serif;
