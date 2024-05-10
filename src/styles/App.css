@@ -32,7 +32,8 @@ background: linear-gradient(0deg, rgb(77, 4, 178) 0%, rgb(14, 10, 1) 100%);
     flex-wrap: wrap;
     gap: 50px;
     justify-content: space-between;
-    
+    margin-left: 60px;
+    background: none;
   }
 }
 
@@ -73,7 +74,7 @@ background: #132f4b;
   .tamañodetail{
 display: flex;
 width: 200px;
-margin-left: 20px;
+margin-left: 120px;
   }
 }
 .titulo{
