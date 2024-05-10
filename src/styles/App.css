@@ -73,8 +73,9 @@ background: #132f4b;
 @media(max-width:576px){
   .tamañodetail{
 display: flex;
-width: 200px;
-margin-left: 120px;
+width: 300px;
+margin-left: 70px;
+margin-bottom: 80px;
   }
 }
 .titulo{
@@ -94,6 +95,12 @@ margin-top: 200px;
 margin-right: 100px;
 
 
+
+ }
+ @media(max-width:576px){
+  .separaciondeitemcard2{
+    margin-top: 150px;
+  }
 
  }
  .itemcard3{
@@ -144,3 +151,10 @@ animation-fill-mode: forwards;
 
    
  }
+ @media(max-width:576px){
+  .ordencheck{
+width: 100px;
+margin-left: 130px;
+  }
+ }
+
