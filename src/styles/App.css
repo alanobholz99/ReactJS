@@ -145,7 +145,7 @@ animation-fill-mode: forwards;
  height: 400px;
  width: 400px;
  margin-left:37% ;
-
+color: white;
   
    
 
@@ -154,7 +154,7 @@ animation-fill-mode: forwards;
  @media(max-width:576px){
   .ordencheck{
 width: 100px;
-margin-left: 110px;
+margin-left: 100px;
   }
  }
 
