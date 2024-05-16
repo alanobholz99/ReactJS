@@ -115,14 +115,20 @@ return (
 <input type="number" name="telefono"/>           
 <button>Finalizar compra</button>
 </form>
+<div className='ordenoso'>
 <Player
             
             src='https://lottie.host/b37c55b2-28ec-4e01-b554-256927c311e2/BmbvCSZzlC.json'
             className="player"
             loop
   autoplay
-  style={{height:"200px", width:"400px", marginLeft:"25px"}}
+  style={{height:"200px", width:"400px", marginLeft:"560px"
+
+   }}
+
             />
+</div>
+
 </div>
 
         
