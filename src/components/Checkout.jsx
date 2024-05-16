@@ -121,7 +121,7 @@ return (
             className="player"
             loop
   autoplay
-  style={{height:"200px", width:"400px", marginLeft:"5px"}}
+  style={{height:"200px", width:"400px", marginLeft:"10px"}}
             />
 </div>
 
